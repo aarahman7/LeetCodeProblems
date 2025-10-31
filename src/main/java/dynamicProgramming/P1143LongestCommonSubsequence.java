@@ -1,10 +1,12 @@
+package dynamicProgramming;
+
 import java.util.Arrays;
 
 public class P1143LongestCommonSubsequence {
     public static void main(String[] args) {
         String text1 = "bsbininm", text2 = "jmjkbkjkv";
         System.out.println(new P1143LongestCommonSubsequence().longestCommonSubsequenceArray(text1, text2));
-//        System.out.println(new P1143LongestCommonSubsequence().longestCommonSubsequenceUsingRecursion(text1, text2));
+//        System.out.println(new dynamicProgramming.P1143LongestCommonSubsequence().longestCommonSubsequenceUsingRecursion(text1, text2));
     }
 
     public int longestCommonSubsequenceUsingRecursion(String text1, String text2) {
